@@ -1,7 +1,7 @@
 import openai
 import discord
 
-openai.api_key = "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" #put your api key :V
+openai.api_key = "sk-sidrYCSyJLf5OOn5M4C1T3BlbkFJtLaFxveTy4qiO3BUsf4" #put your api key :V
 
 client = discord.Client()
 
@@ -23,4 +23,4 @@ async def on_message(message):
         generated_text = response["choices"][0]["text"]
         await message.channel.send(generated_text)
 
-client.run("MTA3Mzc0NzUxMzI3NTg1NTAwOA.GDPSxC.T4glwFmUDdx9o-4SEZrt0gdsshsnmiwqt_t_JQ")
+client.run("MTA3Mzc0NzUxMzI3NTg1NTAwOA.GDPSxC.T4glwFmUDdx9o-4EZrt0gdsshsnmiwqt_t_JQ")
